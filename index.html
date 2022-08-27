@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./images/grader.png" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Heavy EQ</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="#" class="logo">
+          <span class="logo-space-f">Heavy</span>
+          <span class="logo-space-s">Equipment</span>
+          <img src="./images/logo.png" alt="grader" />
+        </a>
+      </div>
+
+      <div class="search-bar">
+        <input
+          type="text"
+          class="search-bar-input"
+          placeholder="Search"
+          autocomplete="off"
+        />
+        <div class="search-bar-icon">
+          <img src="./images/search.png" alt="search-icon" class="search" />
+        </div>
+      </div>
+      <div class="social-media">
+        <a href="https://www.facebook.com/" target="_blank"
+          ><img
+            src="./images/socialmedia/facebook-box-line.svg"
+            alt="facebook-icon"
+        /></a>
+        <a href="https://www.youtube.com/" target="_blank"
+          ><img src="./images/socialmedia/youtube-line.svg" alt="youtube-icon"
+        /></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img
+            src="./images/socialmedia/instagram-line.svg"
+            alt="instagram-icon"
+        /></a>
+      </div>
+    </header>
+
+    <main class="container">
+      <aside class="categories">
+        <h1 class="categories-title">CATEGORIES</h1>
+        <section class="categories-items"></section>
+      </aside>
+      <section class="products"></section>
+      <p class="empty-state">Not found any product</p>
+    </main>
+
+    <script src="./products.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
